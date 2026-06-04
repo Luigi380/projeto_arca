@@ -49,13 +49,14 @@ nav {
 }
 
 #nav-img {
-  width: 123.28px;
-  max-height: 70px;
+  width: 6.42vw;
 }
 
 .nav-list {
   list-style: none;
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 50px;
   font-family: "Inter", sans-serif;
 }
@@ -70,7 +71,7 @@ nav {
   color: rgb(91, 91, 91);
 }
 
-section {
+.login {
   background-color: #faf7f2;
   border-radius: 10px;
   width: 100%;
@@ -96,14 +97,13 @@ section {
   align-items: center;
   justify-content: center;
   font-family: "Poppins", sans-serif;
-  font-size: 30px;
+  font-size: 2vw;
   color: #3f6f5f;
   gap: 20px;
 }
 
 #welcome-img {
-  max-width: 407.5px;
-  max-height: 197.5px;
+  width: 28vw;
 }
 
 .form {
@@ -120,12 +120,14 @@ section {
 
 .form h2 {
   color: #3f6f5f;
+  font-size: 1.7vw;
 }
 
 form {
   display: flex;
   flex-direction: column;
-  width: 370px;
+  width: 25vw;
+  height: 25vh;
   gap: 10px;
   display: flex;
   justify-content: center;
@@ -133,7 +135,8 @@ form {
 }
 
 form input {
-  width: 300px;
+  width: 20vw;
+  height: auto;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
