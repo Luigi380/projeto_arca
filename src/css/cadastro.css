@@ -1,0 +1,307 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 25px 0;
+}
+
+.cadastro-section {
+  width: 100%;
+  background-color: #faf7f2;
+  border-radius: 12px;
+}
+
+.cadastro-card {
+  padding: 36px 44px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  overflow: hidden;
+}
+
+.hidden {
+  display: none;
+}
+
+.cadastro-titulo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.cadastro-titulo .material-symbols--person-add {
+  font-size: 2.4rem;
+  color: #3f6f5f;
+}
+
+.cadastro-titulo h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #3f6f5f;
+}
+
+.tipo-conta-label {
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.tipo-conta-opcoes {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.tipo-opcao {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  color: #333;
+}
+
+.tipo-opcao input[type="checkbox"] {
+  accent-color: #3f6f5f;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.dados-foto-row {
+  display: flex;
+  gap: 36px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.foto-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.foto-preview {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #d4d0c8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.foto-icon {
+  width: 80px;
+  height: 80px;
+}
+
+.btn-foto {
+  background-color: #faf7f2;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  padding: 6px 16px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  color: #333;
+  transition: background-color 0.2s;
+}
+
+.btn-foto:hover {
+  background-color: #ede9e2;
+}
+
+.dados-col {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.secao-titulo {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 4px;
+}
+
+.secao-bloco {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.campos-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: flex-end;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.campo label {
+  font-size: 0.82rem;
+  color: #444;
+}
+
+.campo input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 7px 10px;
+  font-size: 0.88rem;
+  background-color: #fff;
+  color: #222;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.campo input:focus {
+  border-color: #3f6f5f;
+}
+
+.campo-historia {
+  width: 100%;
+  max-width: 640px;
+  min-height: 140px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 0.88rem;
+  font-family: "Inter", sans-serif;
+  color: #222;
+  resize: vertical;
+  outline: none;
+  background-color: #fff;
+  transition: border-color 0.2s;
+}
+
+.campo-historia:focus {
+  border-color: #3f6f5f;
+}
+
+.campo-nome {
+  flex: 2 1 180px;
+}
+
+.campo-cpf {
+  flex: 1 1 120px;
+}
+
+.campo-nasc {
+  flex: 1 1 140px;
+}
+
+.campo-nis {
+  flex: 1 1 110px;
+}
+
+.campo-sexo {
+  flex: 1 1 90px;
+}
+
+.campo-tel {
+  flex: 1 1 130px;
+}
+
+.campo-email {
+  flex: 2 1 220px;
+}
+
+.campo-fantasia {
+  flex: 2 1 180px;
+}
+
+.campo-cep {
+  flex: 0 1 110px;
+}
+
+.campo-endereco {
+  flex: 3 1 220px;
+}
+
+.campo-numero {
+  flex: 1 1 90px;
+}
+
+.campo-complemento {
+  flex: 2 1 160px;
+}
+
+.campo-bairro {
+  flex: 1 1 140px;
+}
+
+.campo-cidade {
+  flex: 1 1 140px;
+}
+
+.campo-uf {
+  flex: 0 1 70px;
+}
+
+.campo-senha {
+  flex: 0 1 200px;
+}
+
+.cadastro-acoes {
+  display: flex;
+  justify-content: flex-end;
+  gap: 14px;
+  padding-bottom: 36px;
+}
+
+.btn-cancelar {
+  background-color: #e07a5f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 28px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-cancelar:hover {
+  background-color: #c9614a;
+}
+
+.btn-enviar {
+  background-color: #3f6f5f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 28px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-enviar:hover {
+  background-color: #2e5245;
+}
+
+.footer {
+  margin-top: 20px;
+  width: 100%;
+}
+
+#foot-img {
+  width: 100%;
+  display: block;
+}
