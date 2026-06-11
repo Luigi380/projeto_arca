@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/icon.css" />
+
+    <script type="module" src="../js/login.js" defer></script>
+
     <link rel="shortcut icon" href="../img/icone.png" type="image/x-icon" />
     <title>Projeto Arca</title>
   </head>
@@ -114,17 +117,17 @@
             <form action="">
               <div class="email">
                 <label for="email-cpf">Email</label>
-                <input type="text" placeholder="Email" />
+                <input type="text" placeholder="Email" id="email" />
               </div>
 
               <div class="password">
                 <label for="password">Senha</label>
-                <input type="password" placeholder="Senha" />
+                <input type="password" placeholder="Senha" id="pass" />
               </div>
 
               <div class="form-actions">
                 <a href="">Esqueci minha senha</a>
-                <button type="submit">Entrar</button>
+                <button type="button" id="entrar">Entrar</button>
               </div>
 
               <p>

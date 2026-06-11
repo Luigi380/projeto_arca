@@ -1,0 +1,290 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+#minha-conta {
+  background-color: #e07a5f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: background-color 0.2s;
+}
+
+#minha-conta:hover {
+  background-color: #c9614a;
+}
+
+#minha-conta-link {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.meus-dados-section {
+  width: 100%;
+  background-color: #faf7f2;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.meus-dados-layout {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar-menu {
+  width: 15vw;
+  flex-shrink: 0;
+  background-color: #faf7f2;
+  border-radius: 10px 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 0 0;
+}
+
+.sidebar-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 0 12px;
+  flex: 1;
+}
+
+.sidebar-item a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #444;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
+}
+
+.sidebar-item a:hover {
+  background-color: #ede9e2;
+  color: #3f6f5f;
+}
+
+.sidebar-item.active a {
+  background-color: #e8ede9;
+  color: #3f6f5f;
+  font-weight: 700;
+}
+
+.sidebar-item span {
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.sidebar-footer {
+  padding: 16px 12px 0;
+}
+
+.btn-sair {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  background-color: #3f6f5f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 14px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-sair:hover {
+  background-color: #2e5245;
+}
+
+.btn-sair span {
+  font-size: 1.15rem;
+}
+
+.sidebar-rodape {
+  margin-top: 16px;
+}
+
+.sidebar-rodape img {
+  width: 100%;
+  display: block;
+  border-radius: 0 0 0 10px;
+}
+
+.meus-dados-card {
+  flex: 1;
+  background-color: #f4f1ec;
+  border-radius: 0 10px 10px 0;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  border-left: 1px solid #e2ddd6;
+}
+
+.meus-dados-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.meus-dados-titulo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.meus-dados-titulo h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #3f6f5f;
+}
+
+.titulo-icon {
+  font-size: 2rem;
+  color: #3f6f5f;
+}
+
+.btn-editar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #e07a5f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 22px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-editar:hover {
+  background-color: #c9614a;
+}
+
+.btn-editar span {
+  font-size: 1.1rem;
+}
+
+.dados-secao {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.secao-titulo {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 2px;
+}
+
+.campos-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.campo label {
+  font-size: 0.78rem;
+  color: #666;
+  font-weight: 500;
+}
+
+.campo-valor {
+  background-color: #ddd9d1;
+  border-radius: 5px;
+  padding: 7px 12px;
+  font-size: 0.88rem;
+  color: #333;
+  min-height: 34px;
+  display: flex;
+  align-items: center;
+}
+
+.campo-nome {
+  flex: 2 1 180px;
+}
+.campo-cpf {
+  flex: 1 1 130px;
+}
+.campo-nasc {
+  flex: 1 1 130px;
+}
+.campo-nis {
+  flex: 1 1 120px;
+}
+.campo-sexo {
+  flex: 1 1 100px;
+}
+.campo-tel {
+  flex: 1 1 140px;
+}
+.campo-email {
+  flex: 2 1 220px;
+}
+.campo-cep {
+  flex: 0 1 110px;
+}
+.campo-endereco {
+  flex: 3 1 220px;
+}
+.campo-numero {
+  flex: 1 1 80px;
+}
+.campo-complemento {
+  flex: 2 1 200px;
+}
+.campo-bairro {
+  flex: 1 1 140px;
+}
+.campo-cidade {
+  flex: 1 1 130px;
+}
+.campo-uf {
+  flex: 0 1 65px;
+}
+
+.footer {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#foot-img {
+  width: 100%;
+  display: block;
+  border-radius: 0 0 10px 0;
+}
