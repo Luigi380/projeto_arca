@@ -1,0 +1,231 @@
+/* Card com padding menor no topo para o formulário */
+.animais-card {
+  padding: 32px 32px 0;
+}
+
+/* Grade principal: form | upload */
+.animal-form-grid {
+  display: flex;
+  gap: 28px;
+  align-items: flex-start;
+}
+
+.animal-form-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-width: 0;
+}
+
+.animal-form-right {
+  flex-shrink: 0;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Blocos de seção do formulário */
+.form-bloco {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.form-bloco-titulo {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #333;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #e2ddd6;
+}
+
+/* Reutiliza .campos-row e .campo do meus-dados.css */
+.campo input[type="text"],
+.campo input[type="number"],
+.campo select {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 7px 10px;
+  font-size: 0.88rem;
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+  color: #222;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.campo input:focus,
+.campo select:focus {
+  border-color: #3f6f5f;
+}
+
+.campo-label {
+  font-size: 0.82rem;
+  color: #555;
+  font-weight: 500;
+}
+
+/* Tamanhos específicos dos campos de animal */
+.campo-nome {
+  flex: 2 1 150px;
+}
+.campo-idade {
+  flex: 0 1 80px;
+}
+.campo-raca {
+  flex: 2 1 130px;
+}
+
+/* Input de observações de saúde — largura total */
+.input-obs {
+  width: 100%;
+}
+
+/* Espécie */
+.campo-especie {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Grupos de radio */
+.radio-group {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.radio-opcao {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.85rem;
+  color: #444;
+  cursor: pointer;
+}
+
+.radio-opcao input[type="radio"] {
+  accent-color: #3f6f5f;
+  cursor: pointer;
+}
+
+.input-outro {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 8px;
+  font-size: 0.82rem;
+  font-family: "Inter", sans-serif;
+  outline: none;
+  width: 90px;
+  transition: border-color 0.2s;
+}
+
+.input-outro:focus {
+  border-color: #3f6f5f;
+}
+
+/* Situação */
+.situacao-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px 28px;
+}
+
+.situacao-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* Upload */
+.upload-titulo {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #444;
+}
+
+.upload-box {
+  border: 2px dashed #c0bab3;
+  border-radius: 10px;
+  padding: 32px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background-color: #f9f5f0;
+  cursor: pointer;
+  text-align: center;
+  transition:
+    border-color 0.2s,
+    background-color 0.2s;
+}
+
+.upload-box:hover {
+  border-color: #3f6f5f;
+  background-color: #f0ede8;
+}
+
+.upload-icon {
+  font-size: 2.2rem;
+  color: #aaa;
+}
+
+.upload-box p {
+  font-size: 0.82rem;
+  color: #777;
+  line-height: 1.6;
+}
+
+.upload-link {
+  color: #3f6f5f;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Ações — reutiliza padrão do cadastro.css */
+.cadastro-acoes {
+  display: flex;
+  justify-content: flex-end;
+  gap: 14px;
+}
+
+.btn-cancelar {
+  background-color: #e07a5f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 28px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-cancelar:hover {
+  background-color: #c9614a;
+}
+
+.btn-enviar {
+  background-color: #3f6f5f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 28px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-enviar:hover {
+  background-color: #2e5245;
+}
+
+/* Footer herda o #foot-img do meus-dados.css */
+.animais-card .footer {
+  margin-top: 28px;
+}

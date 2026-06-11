@@ -74,52 +74,6 @@
   cursor: pointer;
 }
 
-.dados-foto-row {
-  display: flex;
-  gap: 36px;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-
-.foto-col {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-  flex-shrink: 0;
-}
-
-.foto-preview {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  background-color: #d4d0c8;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.foto-icon {
-  width: 80px;
-  height: 80px;
-}
-
-.btn-foto {
-  background-color: #faf7f2;
-  border: 1px solid #bbb;
-  border-radius: 5px;
-  padding: 6px 16px;
-  font-size: 0.85rem;
-  cursor: pointer;
-  color: #333;
-  transition: background-color 0.2s;
-}
-
-.btn-foto:hover {
-  background-color: #ede9e2;
-}
-
 .dados-col {
   flex: 1;
   min-width: 280px;

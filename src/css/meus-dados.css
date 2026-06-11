@@ -97,6 +97,10 @@
   padding: 16px 12px 0;
 }
 
+#link-btn {
+  text-decoration: none;
+}
+
 .btn-sair {
   display: flex;
   align-items: center;

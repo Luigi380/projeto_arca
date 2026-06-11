@@ -3,6 +3,10 @@ var checkOng = document.getElementById("check-ong");
 var secaoTutor = document.getElementById("secao-tutor");
 var secaoOng = document.getElementById("secao-ong");
 
+checkTutor.checked = true;
+secaoTutor.classList.remove("hidden");
+secaoOng.classList.add("hidden");
+
 checkTutor.addEventListener("change", function () {
   if (checkTutor.checked) {
     checkOng.checked = false;
