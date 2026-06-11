@@ -1,9 +1,7 @@
-/* Card com padding menor no topo para o formulário */
 .animais-card {
   padding: 32px 32px 0;
 }
 
-/* Grade principal: form | upload */
 .animal-form-grid {
   display: flex;
   gap: 28px;
@@ -26,7 +24,6 @@
   gap: 10px;
 }
 
-/* Blocos de seção do formulário */
 .form-bloco {
   display: flex;
   flex-direction: column;
@@ -42,7 +39,6 @@
   border-bottom: 2px solid #e2ddd6;
 }
 
-/* Reutiliza .campos-row e .campo do meus-dados.css */
 .campo input[type="text"],
 .campo input[type="number"],
 .campo select {
@@ -68,7 +64,6 @@
   font-weight: 500;
 }
 
-/* Tamanhos específicos dos campos de animal */
 .campo-nome {
   flex: 2 1 150px;
 }
@@ -79,19 +74,16 @@
   flex: 2 1 130px;
 }
 
-/* Input de observações de saúde — largura total */
 .input-obs {
   width: 100%;
 }
 
-/* Espécie */
 .campo-especie {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-/* Grupos de radio */
 .radio-group {
   display: flex;
   align-items: center;
@@ -128,7 +120,6 @@
   border-color: #3f6f5f;
 }
 
-/* Situação */
 .situacao-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -141,7 +132,6 @@
   gap: 6px;
 }
 
-/* Upload */
 .upload-titulo {
   font-size: 0.82rem;
   font-weight: 600;
@@ -188,7 +178,6 @@
   text-decoration: underline;
 }
 
-/* Ações — reutiliza padrão do cadastro.css */
 .cadastro-acoes {
   display: flex;
   justify-content: flex-end;
@@ -225,7 +214,6 @@
   background-color: #2e5245;
 }
 
-/* Footer herda o #foot-img do meus-dados.css */
 .animais-card .footer {
   margin-top: 28px;
 }

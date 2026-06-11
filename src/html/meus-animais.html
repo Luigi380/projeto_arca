@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/icon.css" />
+    <link rel="stylesheet" href="../css/fonts.css" />
+    <link rel="stylesheet" href="../css/meus-dados.css" />
+    <link rel="stylesheet" href="../css/meus-animais.css" />
+    <link rel="shortcut icon" href="../img/icone.png" type="image/x-icon" />
+    <title>Projeto Arca — Meus Animais</title>
+  </head>
+  <body>
+    <header>
+      <div class="gov">
+        <img
+          src="../img/brasao-serra.png"
+          alt="Brasão da Prefeitura da Serra"
+          id="head-img"
+        />
+        <ul class="nav-gov">
+          <li>
+            <a href="https://transparencia.serra.es.gov.br/" target="_blank"
+              >Transparência</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://portalatendimentos.serra.es.gov.br/#/"
+              target="_blank"
+              >Portal de Atendimentos (Ouvidoria / E-sic)</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://prefeiturasempapel.serra.es.gov.br/legislacao/"
+              target="_blank"
+              >Legislação</a
+            >
+          </li>
+          <li><a href="" target="_blank">Notícias</a></li>
+          <li>
+            <a
+              href="https://transparencia.serra.es.gov.br/CartaServico.Lista.aspx"
+              target="_blank"
+              >Carta de Serviços</a
+            >
+          </li>
+        </ul>
+      </div>
+      <nav>
+        <img
+          src="../img/logo-pequena.png"
+          alt="Logo do Projeto Arca"
+          id="nav-img"
+        />
+        <ul class="nav-list">
+          <li>
+            <a href="../../index.html"
+              ><span class="mynaui--home-solid"></span> Home</a
+            >
+          </li>
+          <li>
+            <a href=""
+              ><span class="material-symbols--info-outline"></span> Sobre a
+              Arca</a
+            >
+          </li>
+          <li>
+            <a href=""><span class="tabler--paw"></span> Adoção</a>
+          </li>
+          <li>
+            <a href=""><span class="tabler--tool"></span> Serviços</a>
+          </li>
+          <li>
+            <a href=""><span class="ph--hand-heart"></span> ONG's Parceiras</a>
+          </li>
+          <li>
+            <a href=""
+              ><span class="fluent--news-24-regular"></span> Notícias</a
+            >
+          </li>
+          <li>
+            <a href=""><span class="mdi--at"></span> Contato</a>
+          </li>
+          <li>
+            <a href="" id="minha-conta-link">
+              <button id="minha-conta">
+                <span class="mdi--account-circle-outline"></span> Minha Conta
+              </button>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="meus-dados-section">
+        <div class="meus-dados-layout">
+          <aside class="sidebar-menu">
+            <ul class="sidebar-list">
+              <li class="sidebar-item">
+                <a href="./meus-dados.html">
+                  <span class="mdi--account-outline"></span>
+                  Meus Dados
+                </a>
+              </li>
+              <li class="sidebar-item active">
+                <a href="./meus-animais.html">
+                  <span class="mdi--dog"></span>
+                  Meus Animais
+                </a>
+              </li>
+              <li class="sidebar-item">
+                <a href="">
+                  <span class="mdi--clipboard-list-outline"></span>
+                  Minhas Solicitações
+                </a>
+              </li>
+              <li class="sidebar-item">
+                <a href="">
+                  <span class="mdi--bullhorn-outline"></span>
+                  Minhas Denúncias
+                </a>
+              </li>
+            </ul>
+            <div class="sidebar-footer">
+              <a href="../../index.html" id="link-btn">
+                <button class="btn-sair">
+                  <span class="mdi--logout"></span>
+                  Sair da Conta
+                </button>
+              </a>
+            </div>
+            <div class="sidebar-rodape">
+              <img src="../img/rodape-menu.png" alt="Rodapé do menu" />
+            </div>
+          </aside>
+
+          <div class="meus-dados-card animais-lista-card">
+            <div class="animais-lista-header">
+              <div class="meus-dados-titulo">
+                <span class="mdi--dog titulo-icon"></span>
+                <h1>Meus Animais</h1>
+              </div>
+              <a href="./animais-cadastrados.html" id="link-btn">
+                <button class="btn-add-animal">
+                  <span class="mdi--plus-circle-outline"></span>
+                  Adicionar novo animal
+                </button>
+              </a>
+            </div>
+
+            <div class="search-bar">
+              <input
+                class="search-input"
+                type="text"
+                placeholder="Buscar por código ou nome do animal"
+              />
+              <div class="search-right">
+                <div class="filter-select-wrap">
+                  <select class="filter-select">
+                    <option>Filtrar por espécie</option>
+                    <option>Cachorro</option>
+                    <option>Gato</option>
+                    <option>Outro</option>
+                  </select>
+                  <span class="mdi--chevron-down select-arrow"></span>
+                </div>
+                <button class="btn-filtro">
+                  <span class="mdi--funnel-outline"></span>
+                </button>
+              </div>
+            </div>
+
+            <div class="animal-list">
+              <div class="animal-card">
+                <img src="../img/meu-animal.png" alt="Animal 1" />
+                <div class="animal-card-body">
+                  <div class="animal-name">
+                    Nome <span class="animal-code">#4986</span>
+                  </div>
+                  <div class="animal-meta">
+                    <span><span class="mdi--paw-meta"></span> Gato</span>
+                    <span><span class="mdi--gender-male"></span> Macho</span>
+                    <span
+                      ><span class="mdi--calendar-outline"></span> 3 Meses</span
+                    >
+                    <span><span class="mdi--resize"></span> Pequeno</span>
+                  </div>
+                  <div class="animal-tags">
+                    <span class="tag">Castrado</span>
+                    <span class="tag">Vacinado</span>
+                    <span class="tag">Vermifugado</span>
+                  </div>
+                  <div class="animal-acoes">
+                    <button class="btn-acao btn-visualizar">
+                      <span class="mdi--eye-outline"></span> Visualizar
+                    </button>
+                    <button class="btn-acao btn-editar-card">
+                      <span class="mdi--pencil-outline"></span> Editar
+                    </button>
+                    <button class="btn-acao btn-excluir">
+                      <span class="mdi--trash-can-outline"></span> Excluir
+                    </button>
+                  </div>
+                </div>
+                <span class="status-badge status-tutor"
+                  >&#127968; Pet do Tutor</span
+                >
+              </div>
+
+              <div class="animal-card">
+                <img src="../img/meu-animal.png" alt="Animal 2" />
+                <div class="animal-card-body">
+                  <div class="animal-name">
+                    Nome <span class="animal-code">#4986</span>
+                  </div>
+                  <div class="animal-meta">
+                    <span><span class="mdi--paw-meta"></span> Gato</span>
+                    <span><span class="mdi--gender-male"></span> Macho</span>
+                    <span
+                      ><span class="mdi--calendar-outline"></span> 3 Meses</span
+                    >
+                    <span><span class="mdi--resize"></span> Pequeno</span>
+                  </div>
+                  <div class="animal-tags">
+                    <span class="tag">Castrado</span>
+                    <span class="tag">Vacinado</span>
+                    <span class="tag">Vermifugado</span>
+                  </div>
+                  <div class="animal-acoes">
+                    <button class="btn-acao btn-visualizar">
+                      <span class="mdi--eye-outline"></span> Visualizar
+                    </button>
+                    <button class="btn-acao btn-editar-card">
+                      <span class="mdi--pencil-outline"></span> Editar
+                    </button>
+                    <button class="btn-acao btn-excluir">
+                      <span class="mdi--trash-can-outline"></span> Excluir
+                    </button>
+                  </div>
+                </div>
+                <span class="status-badge status-adocao"
+                  >&#10003; Disponível para adoção</span
+                >
+              </div>
+
+              <div class="animal-card">
+                <img src="../img/meu-animal.png" alt="Animal 3" />
+                <div class="animal-card-body">
+                  <div class="animal-name">
+                    Nome <span class="animal-code">#4986</span>
+                  </div>
+                  <div class="animal-meta">
+                    <span><span class="mdi--paw-meta"></span> Gato</span>
+                    <span><span class="mdi--gender-male"></span> Macho</span>
+                    <span
+                      ><span class="mdi--calendar-outline"></span> 3 Meses</span
+                    >
+                    <span><span class="mdi--resize"></span> Pequeno</span>
+                  </div>
+                  <div class="animal-tags">
+                    <span class="tag">Castrado</span>
+                    <span class="tag">Vacinado</span>
+                    <span class="tag">Vermifugado</span>
+                  </div>
+                  <div class="animal-acoes">
+                    <button class="btn-acao btn-visualizar">
+                      <span class="mdi--eye-outline"></span> Visualizar
+                    </button>
+                    <button class="btn-acao btn-editar-card">
+                      <span class="mdi--pencil-outline"></span> Editar
+                    </button>
+                    <button class="btn-acao btn-excluir">
+                      <span class="mdi--trash-can-outline"></span> Excluir
+                    </button>
+                  </div>
+                </div>
+                <span class="status-badge status-adotado"
+                  >&#10003; Adotado</span
+                >
+              </div>
+            </div>
+
+            <footer class="footer">
+              <img src="../img/rodape.png" alt="Rodapé do site" id="foot-img" />
+            </footer>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
